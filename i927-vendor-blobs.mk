@@ -125,22 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i927/proprietary/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
     vendor/samsung/i927/proprietary/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd
 
-# OMX
-PRODUCT_COPY_FILES += \
-    vendor/samsung/i927/proprietary/libsomxcmn.so:system/lib/libsomxcmn.so \
-    vendor/samsung/i927/proprietary/libsomxcore.so:system/lib/libsomxcore.so \
-    vendor/samsung/i927/proprietary/libsomxaacd.so:system/lib/libsomxaacd.so \
-    vendor/samsung/i927/proprietary/libsomxaace.so:system/lib/libsomxaace.so \
-    vendor/samsung/i927/proprietary/libsomxac3d.so:system/lib/libsomxac3d.so \
-    vendor/samsung/i927/proprietary/libsomxamrd.so:system/lib/libsomxamrd.so \
-    vendor/samsung/i927/proprietary/libsomxflacd.so:system/lib/libsomxflacd.so \
-    vendor/samsung/i927/proprietary/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-    vendor/samsung/i927/proprietary/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-    vendor/samsung/i927/proprietary/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-    vendor/samsung/i927/proprietary/libsomxwmad.so:system/lib/libsomxwmad.so \
-    vendor/samsung/i927/proprietary/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    vendor/samsung/i927/proprietary/libsomxwmv8d.so:system/lib/libsomxwmv8d.so
-
 PRODUCT_COPY_FILES += \
     vendor/samsung/i927/proprietary/libsavsac.so:system/lib/libsavsac.so \
     vendor/samsung/i927/proprietary/libsavscmn.so:system/lib/libsavscmn.so \
