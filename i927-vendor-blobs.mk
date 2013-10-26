@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/i927/proprietary/libsecril-client.so:obj/lib/libsecril-client.so \
     vendor/samsung/i927/proprietary/cbd:root/sbin/cbd
 
 # HAL
