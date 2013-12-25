@@ -29,11 +29,8 @@ PRODUCT_COPY_FILES += \
 # EGL
 PRODUCT_COPY_FILES += \
     vendor/samsung/i927/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
-    vendor/samsung/i927/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
     vendor/samsung/i927/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
-    vendor/samsung/i927/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
-    vendor/samsung/i927/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
-    vendor/samsung/i927/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so
+    vendor/samsung/i927/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so
 
 # RIL files
 PRODUCT_COPY_FILES += \
