@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES := \
 # HAL
 PRODUCT_COPY_FILES += \
     vendor/samsung/i927/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
+    vendor/samsung/i927/proprietary/lib/hw/audio.primary.n1.so:system/lib/hw/audio.primary.n1.so \
+    vendor/samsung/i927/proprietary/lib/hw/audio_policy.n1.so:system/lib/hw/audio_policy.n1.so \
+    vendor/samsung/i927/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/samsung/i927/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/samsung/i927/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/samsung/i927/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
@@ -29,11 +32,8 @@ PRODUCT_COPY_FILES += \
 # EGL
 PRODUCT_COPY_FILES += \
     vendor/samsung/i927/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
-    vendor/samsung/i927/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
     vendor/samsung/i927/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
-    vendor/samsung/i927/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
-    vendor/samsung/i927/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
-    vendor/samsung/i927/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so
+    vendor/samsung/i927/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so
 
 # RIL files
 PRODUCT_COPY_FILES += \
