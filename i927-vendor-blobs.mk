@@ -102,8 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i927/proprietary/libnvwinsys.so:/system/lib/libnvwinsys.so \
     vendor/samsung/i927/proprietary/libnvwsi.so:/system/lib/libnvwsi.so \
     vendor/samsung/i927/proprietary/libcgdrv.so:/system/lib/libcgdrv.so \
-    vendor/samsung/i927/proprietary/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
-    vendor/samsung/i927/proprietary/libemoji.so:system/lib/libemoji.so \
+    vendor/samsung/i927/proprietary/libardrv_dynamic.so:system/lib/libardrv_dynamic.so 
 
 # Firmwares
 PRODUCT_COPY_FILES += \
