@@ -21,8 +21,6 @@ PRODUCT_COPY_FILES := \
 # HAL
 PRODUCT_COPY_FILES += \
     vendor/samsung/i927/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
-    vendor/samsung/i927/proprietary/lib/hw/audio.primary.n1.so:system/lib/hw/audio.primary.n1.so \
-    vendor/samsung/i927/proprietary/lib/hw/audio_policy.n1.so:system/lib/hw/audio_policy.n1.so \
     vendor/samsung/i927/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/samsung/i927/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/samsung/i927/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
